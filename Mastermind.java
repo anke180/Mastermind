@@ -1,9 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
-public class mastermind
+public static void main(String[] args)
 {
-    public static void main(String[] args)
-    {
 	//Random kleuren
 	String[] kleuren = {"rood","groen","geel","blauw","paars","oranje"};
 	
@@ -119,6 +117,4 @@ public class mastermind
 	
 	sc.close();    
 	
-    }
-
-} 
+}
